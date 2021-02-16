@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: capstone
-          image: abdallash/capstone_frontend:v1
+          image: abdallash/capstone_frontend
           ports:
             - containerPort: 80
   replicas: 1

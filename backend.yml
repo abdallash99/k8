@@ -18,6 +18,7 @@ spec:
       containers:
         - name: capstone
           image: abdallash/capstone
+          imagePullPolicy: Always
           ports:
             - containerPort: 8080
           env:

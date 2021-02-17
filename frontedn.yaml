@@ -18,6 +18,7 @@ spec:
       containers:
         - name: capstone
           image: abdallash/capstone_frontend
+          imagePullPolicy: Always
           ports:
             - containerPort: 80
   replicas: 1
